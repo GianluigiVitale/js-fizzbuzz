@@ -7,14 +7,14 @@ di 3 che di 5 stampi FizzBuzz.
 */
 
 
-for (var i = 1; i <= 100; i++) {
-    if ((i % 15) == 0) {
+for (var i = 1; i <= 100; i++) {    // ripeto il codice 100 volte
+    if ((i % 15) == 0) {            // se il numero [i] diviso 15 da' resto 0 allora stampo in console 'FizzBuzz'
         console.log('FizzBuzz');
-    } else if ((i % 3) == 0) {
+    } else if ((i % 3) == 0) {     // altrimenti se il numero [i] diviso 3 da' resto 0, stampo in console 'Fizz'
         console.log('Fizz');
-    } else if ((i % 5) == 0) {
+    } else if ((i % 5) == 0) {    // altrimenti se il numero [i] diviso 5 da' resto 0, stampo in console 'Buzz'
         console.log('Buzz');
-    } else {
+    } else {                        // altrimenti stampo il numero [i]
         console.log(i);
     }
 }
